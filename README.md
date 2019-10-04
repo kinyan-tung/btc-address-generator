@@ -43,6 +43,7 @@ node build/cli.js generate-n-of-m-multisig-P2SH -h
 ```
 
 ##### Command to generate multisig bitcoin address
+**list of public key(s), should be separated by comma(s)**
 ``` bash
 node build/cli.js generate-n-of-m-multisig-P2SH -n 3 -p 034246130970bad2bcc24331c88c33476bab3f70051c1f74d80e07c644ea146026,022e56d85e214480de72de7d888ec027db1171361f44ce5fe9141cf34aa2e6ee73,026c749a23e76a436bc0d2300e158df62aee243fe932c8dcd277e455a08252ca91,036320bc6300948039141a5945126d6ee2b462c7b5344af0934b33eb3ac6a0b5d6
 ```
