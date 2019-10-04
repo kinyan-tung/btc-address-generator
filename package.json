@@ -1,0 +1,26 @@
+{
+  "name": "btc-address-generator",
+  "version": "1.0.0",
+  "description": "btc-address-generator",
+  "main": "cli.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "jest"
+  },
+  "author": "kinyan.tung@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.3.1",
+    "@typescript-eslint/parser": "^2.3.1",
+    "bip39": "^3.0.2",
+    "bitcoinjs-lib": "^5.1.6",
+    "typescript": "^3.6.3",
+    "yargs": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/bitcoinjs-lib": "^4.0.1",
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0"
+  }
+}
