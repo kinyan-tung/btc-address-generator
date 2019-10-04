@@ -13,7 +13,7 @@ npm run tsc
 
 ## Usage
 
-### Please use below as testing purpose only
+### Please use below for testing purpose only
 
 #### 1. Generate public key
 ``` bash
