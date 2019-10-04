@@ -26,7 +26,7 @@ node build/cli.js generate-mnemonic-seed
 ```
 
 #### 3. Derive an Hierarchical Deterministic (HD) Segregated Witness (SegWit) bitcoin address from a given seed and path
-##### Get help
+##### Help
 ``` bash
 node build/cli.js derive-HD-SegWit-BTC-address -h
 ```
@@ -37,13 +37,13 @@ node build/cli.js derive-HD-SegWit-BTC-address -s e7a5ad8f219e14c8345d2a3794898e
 ```
 
 #### 4. Generate an n-out-of-m Multisignature (multisig) Pay-To-Script-Hash (P2SH) bitcoin address, where n and addresses can be specified
-##### Get help
+##### Help
 ``` bash
 node build/cli.js generate-n-of-m-multisig-P2SH -h
 ```
 
 ##### Command to generate multisig bitcoin address
-**list of public key(s), should be separated by comma(s)**
+###### Note: List of public key(s), should be separated by comma(s)
 ``` bash
 node build/cli.js generate-n-of-m-multisig-P2SH -n 3 -p 034246130970bad2bcc24331c88c33476bab3f70051c1f74d80e07c644ea146026,022e56d85e214480de72de7d888ec027db1171361f44ce5fe9141cf34aa2e6ee73,026c749a23e76a436bc0d2300e158df62aee243fe932c8dcd277e455a08252ca91,036320bc6300948039141a5945126d6ee2b462c7b5344af0934b33eb3ac6a0b5d6
 ```
