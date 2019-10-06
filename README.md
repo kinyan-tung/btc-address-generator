@@ -1,5 +1,5 @@
 # btc-address-generator
-A javascript library for node.js to generate Hierarchical Deterministic (HD) Segregated Witness (SegWit) and n-out-of-m Multisignature (multisig) Pay-To-Script-Hash (P2SH) btc address.
+A javascript command-line interface (CLI) for node.js to generate Hierarchical Deterministic (HD) Segregated Witness (SegWit) and n-out-of-m Multisignature (multisig) Pay-To-Script-Hash (P2SH) btc address.
 
 ## Installation
 ``` bash
