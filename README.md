@@ -30,7 +30,7 @@ node build/cli.js generate-mnemonic-seed
 ``` bash
 --version       Show version number                                  [boolean]
 --seed-hex, -s  Wallet seed in Hexadecimal format          [string] [required]
---path, -p      e.g. m/49''/1''/0''/0/0                    [string] [required]
+--path, -p      e.g. m/49'/1'/0'/0/0                       [string] [required]
 --help, -h      Show help                                            [boolean]
 ```
 
